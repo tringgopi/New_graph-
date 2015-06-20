@@ -14,6 +14,8 @@
 		520073731AB978F900A12934 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 520073721AB978F900A12934 /* Images.xcassets */; };
 		520073761AB978F900A12934 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 520073741AB978F900A12934 /* LaunchScreen.xib */; };
 		520073821AB978F900A12934 /* New_graphTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 520073811AB978F900A12934 /* New_graphTests.m */; };
+		5200738D1AB979B800A12934 /* graph_view.m in Sources */ = {isa = PBXBuildFile; fileRef = 5200738C1AB979B800A12934 /* graph_view.m */; };
+		D3A6598C1AE7A283002FDD91 /* drop.png in Resources */ = {isa = PBXBuildFile; fileRef = D3A6598B1AE7A283002FDD91 /* drop.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		5200737B1AB978F900A12934 /* New_graphTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = New_graphTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		520073801AB978F900A12934 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		520073811AB978F900A12934 /* New_graphTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = New_graphTests.m; sourceTree = "<group>"; };
+		5200738B1AB979B800A12934 /* graph_view.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graph_view.h; sourceTree = "<group>"; };
+		5200738C1AB979B800A12934 /* graph_view.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = graph_view.m; sourceTree = "<group>"; };
+		D3A6598B1AE7A283002FDD91 /* drop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drop.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +90,12 @@
 				5200736A1AB978F900A12934 /* AppDelegate.m */,
 				5200736C1AB978F900A12934 /* ViewController.h */,
 				5200736D1AB978F900A12934 /* ViewController.m */,
+				5200738B1AB979B800A12934 /* graph_view.h */,
+				5200738C1AB979B800A12934 /* graph_view.m */,
 				5200736F1AB978F900A12934 /* Main.storyboard */,
 				520073721AB978F900A12934 /* Images.xcassets */,
 				520073741AB978F900A12934 /* LaunchScreen.xib */,
+				D3A659891AE7A283002FDD91 /* Resources */,
 				520073651AB978F900A12934 /* Supporting Files */,
 			);
 			path = New_graph;
@@ -117,6 +125,22 @@
 				520073801AB978F900A12934 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3A659891AE7A283002FDD91 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D3A6598A1AE7A283002FDD91 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D3A6598A1AE7A283002FDD91 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D3A6598B1AE7A283002FDD91 /* drop.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3A6598C1AE7A283002FDD91 /* drop.png in Resources */,
 				520073711AB978F900A12934 /* Main.storyboard in Resources */,
 				520073761AB978F900A12934 /* LaunchScreen.xib in Resources */,
 				520073731AB978F900A12934 /* Images.xcassets in Resources */,
@@ -222,6 +247,7 @@
 				5200736E1AB978F900A12934 /* ViewController.m in Sources */,
 				5200736B1AB978F900A12934 /* AppDelegate.m in Sources */,
 				520073681AB978F900A12934 /* main.m in Sources */,
+				5200738D1AB979B800A12934 /* graph_view.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +440,7 @@
 				520073871AB978F900A12934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		520073881AB978F900A12934 /* Build configuration list for PBXNativeTarget "New_graphTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +449,7 @@
 				5200738A1AB978F900A12934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
